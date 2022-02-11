@@ -7,43 +7,22 @@
     tools:context=".MyPlanAfterGraduation">
 
     <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_width="416dp"
+        android:layout_height="666dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="65dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="553dp"
+            android:text="Intern during summer and hopefully join grad school for Machine Learning program"
+            android:textAlignment="center"
+            android:textSize="24sp" />
 
         <LinearLayout
-            android:id="@+id/linearLayout"
             android:layout_width="match_parent"
-            android:layout_height="936dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="46dp"
-                android:layout_height="87dp"
-                android:layout_weight="1"
-                android:text="TextView" />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="320dp"
-                android:layout_height="500dp"
-                android:text="TextView"
-                android:textAlignment="gravity" />
-
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
-        </LinearLayout>
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout2"></LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
