@@ -24,8 +24,8 @@ public class MainActivityZach extends AppCompatActivity {
 
                 text.setText("This text has changed");
 
-                Intent i = new Intent(getApplicationContext(), MyPlanAfterGraduationZach.class);
-                startActivity(i);
+                Intent z = new Intent(getApplicationContext(), MyPlanAfterGraduationZach.class);
+                startActivity(z);
 
             }
 

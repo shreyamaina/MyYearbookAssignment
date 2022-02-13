@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyYearbook">
         <activity
+            android:name=".MyPlanAfterGraduationZach" />
+        <activity
+            android:name=".MainActivityZach" />
+        <activity
             android:name=".MyPlanAfterGraduation"
             android:exported="false" />
         <activity

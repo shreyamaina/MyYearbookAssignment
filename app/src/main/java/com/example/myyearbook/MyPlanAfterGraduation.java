@@ -9,23 +9,24 @@ import android.widget.Button;
 
 public class MyPlanAfterGraduation extends AppCompatActivity {
 
-    Button btn;
+    Button btn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_plan_after_graduation);
 
-        btn = (Button) findViewById(R.id.button);
+        btn2 = (Button) findViewById(R.id.nextbutton);
 
-        btn.setOnClickListener(new View.OnClickListener() {
-            class NextActivity {
-            }
+
+
+
+        btn2.setOnClickListener(new View.OnClickListener() {
 
             @Override
-            public void onClick(View v) {
-                Intent i = new Intent (getApplicationContext(),MainActivityZach.class);
-                startActivity(i);
+            public void onClick(View vi) {
+                Intent j = new Intent (MyPlanAfterGraduation.this,MainActivityZach.class);
+                startActivity(j);
             }
         })
     ;}

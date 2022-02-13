@@ -22,11 +22,8 @@ public class MainActivity extends AppCompatActivity {
         txt = (TextView) findViewById(R.id.maintext);
         btn = (Button) findViewById(R.id.button2);
 
-        ;
 
         btn.setOnClickListener(new View.OnClickListener() {
-            class NextActivity {
-            }
 
             @Override
             public void onClick(View v) {
