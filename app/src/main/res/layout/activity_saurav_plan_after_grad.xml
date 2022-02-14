@@ -9,9 +9,9 @@
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="402dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="396dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="4dp"
         android:background="#F44848"
         android:text="Plan After Graduation"
         android:textAlignment="center"
@@ -19,14 +19,14 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="1dp" />
+        tools:layout_editor_absoluteX="-1dp" />
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="276dp"
-        android:layout_height="174dp"
+        android:layout_width="272dp"
+        android:layout_height="172dp"
         android:layout_marginStart="64dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="140dp"
         android:autoText="false"
         android:background="#EA6136"
         android:text="My plan is to prepare for interview, build projects and start applying for jobs"
@@ -41,8 +41,20 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="64dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="180dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811"
         app:srcCompat="@drawable/_18"
-        tools:layout_editor_absoluteX="1dp" />
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Back to first page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="131dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
