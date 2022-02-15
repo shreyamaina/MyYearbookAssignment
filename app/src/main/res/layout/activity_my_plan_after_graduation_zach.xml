@@ -48,6 +48,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="3. Apply for actual job" />
+
+            <LinearLayout
+                android:layout_width="365dp"
+                android:layout_height="482dp"
+                android:orientation="vertical"></LinearLayout>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#5A6FE1"
+                android:text="Next page"
+                app:iconTint="#391818"
+                app:rippleColor="#784444" />
+
         </LinearLayout>
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

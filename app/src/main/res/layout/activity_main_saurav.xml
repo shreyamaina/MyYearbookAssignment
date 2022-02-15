@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#76BDDD"
+    tools:context=".MainActivitySaurav">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="240dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginBottom="16dp"
+        android:background="#EC9292"
+        android:text="Hello! My name is Saurav K C. I am planning to become a software engineer"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="277dp"
+        android:layout_height="422dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/life_sized_the_child___baby_yoda___from_sideshow_collectibles_01" />
+
+    <LinearLayout
+        android:layout_width="84dp"
+        android:layout_height="167dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"></LinearLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginBottom="215dp"
+        android:backgroundTint="#0A6E64"
+        android:text="Next!!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
