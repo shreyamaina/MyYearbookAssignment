@@ -7,21 +7,29 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="435dp"
-        android:layout_height="0dp"
+        android:layout_width="361dp"
+        android:layout_height="692dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="2dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:layout_editor_absoluteX="1dp">
+        app:layout_constraintVertical_bias="1.0">
+
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="283dp"
-            android:adjustViewBounds="true"
-            tools:srcCompat="@android:mipmap/sym_def_app_icon" />
+            android:layout_width="277dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="4dp"
+            android:scaleType="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/customviews_feature" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,7 +63,9 @@
                         android:layout_weight="1"
                         android:background="#C4A9F4"
                         android:text="WHAT'S NEXT?"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
 
                     <TextView
                         android:id="@+id/textView9"

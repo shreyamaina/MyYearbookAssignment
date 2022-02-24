@@ -5,20 +5,15 @@
       <map>
         <entry key="..\:/Users/Shreya/AndroidStudioProjects/MyYearbook/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19114583333333332" />
         <entry key="..\:/Users/Shreya/AndroidStudioProjects/MyYearbook/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19114583333333332" />
-        <entry key="..\:/Users/Shreya/AndroidStudioProjects/MyYearbook/app/src/main/res/layout/activity_main.xml" value="0.15625" />
+        <entry key="..\:/Users/Shreya/AndroidStudioProjects/MyYearbook/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Shreya/AndroidStudioProjects/MyYearbook/app/src/main/res/layout/activity_main_saurav.xml" value="0.1" />
         <entry key="..\:/Users/Shreya/AndroidStudioProjects/MyYearbook/app/src/main/res/layout/activity_main_zach.xml" value="0.175" />
         <entry key="..\:/Users/Shreya/AndroidStudioProjects/MyYearbook/app/src/main/res/layout/activity_my_plan_after_graduation.xml" value="0.175" />
         <entry key="..\:/Users/Shreya/AndroidStudioProjects/MyYearbook/app/src/main/res/layout/activity_my_plan_after_graduation_zach.xml" value="0.175" />
+        <entry key="..\:/Users/zachr/AndroidStudioProjects/MyYearbookAssignment/app/src/main/res/layout/activity_main_zach.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/zachr/AndroidStudioProjects/MyYearbookAssignment/app/src/main/res/layout/activity_my_plan_after_graduation_zach.xml" value="0.1716485507246377" />
         <entry key="..\:/Users/zachr/AndroidStudioProjects/My_YearBook2/app/src/main/res/layout/activity_main_zach.xml" value="0.1716485507246377" />
         <entry key="..\:/Users/zachr/AndroidStudioProjects/My_YearBook2/app/src/main/res/layout/activity_my_plan_after_graduation_zach.xml" value="0.1716485507246377" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15070921985815602" />
-        <entry key="app/src/main/res/layout/activity_main_saurav.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_main_zach.xml" value="0.2900282271769613" />
-        <entry key="app/src/main/res/layout/activity_my_plan_after_graduation.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/activity_my_plan_after_graduation_zach.xml" value="0.34320686633495834" />
-        <entry key="app/src/main/res/layout/activity_saurav_plan_after_grad.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/activity_saurav_plan_after_graduation.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/content_saurav_plan_after_graduation.xml" value="0.1" />
       </map>
     </option>
   </component>
