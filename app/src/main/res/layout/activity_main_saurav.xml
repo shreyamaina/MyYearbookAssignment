@@ -45,7 +45,7 @@
         android:layout_marginStart="158dp"
         android:layout_marginTop="469dp"
         android:layout_marginBottom="215dp"
-        android:backgroundTint="#0A6E64"
+        android:backgroundTint="#3496E4"
         android:text="Next!!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
