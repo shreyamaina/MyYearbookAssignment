@@ -3,6 +3,7 @@ package com.example.myyearbook;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent i = new Intent (getApplicationContext(),MyPlanAfterGraduation.class);
+                Intent i = new Intent(getApplicationContext(), MyPlanAfterGraduation.class);
                 startActivity(i);
             }
-        })
+        });
 
-    ;}
+    }
 }
